@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import './converter.css'
 
-export default (props)=>{
+export default ()=>{
     const [temperature, setTemperature] = useState(0);
     const update =(event) => {
         const fahrenheit = event.target.value;
